@@ -79,11 +79,9 @@
 }
 .hero-title {
   font-family: var(--main-font);
-  font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  text-align: right;
   letter-spacing: 0.02em;
   color: #d9d9d9;
 }
@@ -94,53 +92,82 @@
 }
 
 .logo {
-  font-family: "Raleway";
+  font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 21px;
-  /* identical to box height, or 117% */
-
+  line-height: 1.16;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-
-  /* IRIS */
-
-  color: #4d5ae5;
+  color: var(--iris);
 }
 .logo-dark {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 21px;
-  /* identical to box height, or 117% */
-
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-
-  /* NAVY BLUE */
-
-  color: #2e2f42;
+  color: var(--navy-blue);
 }
 .logo-light {
-  font-family: "Raleway";
+  color: var(--cloud);
+}
+.secondary-header {
+  font-family: var(--main-font);
   font-style: normal;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 21px;
-  /* identical to box height, or 117% */
-
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-
-  /* CLOUD */
-
-  color: #f4f4fd;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+}
+.team {
+  background: var(--cloud);
+}
+.team-title {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.team-position {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+.feauture-title {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+.feauture-review {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+.footer {
+  background: var(--navy-blue);
+}
+.footer-text {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--cloud);
 }
