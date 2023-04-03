@@ -141,7 +141,8 @@
   letter-spacing: 0.02em;
   color: var(--slate);
 }
-.feauture-title {
+.feauture-title,
+.card-name {
   font-family: var(--main-font);
   font-style: normal;
   font-weight: 500;
@@ -150,7 +151,8 @@
   letter-spacing: 0.02em;
   color: var(--navy-blue);
 }
-.feauture-review {
+.feauture-review,
+.card-review {
   font-family: var(--main-font);
   font-style: normal;
   font-weight: 400;
