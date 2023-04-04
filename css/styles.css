@@ -24,42 +24,7 @@
   text-decoration: none;
   text-transform: none;
   background-color: var(--white);
-  color: #434455;
-}
-.list {
-  list-style: none;
-  text-decoration: none;
-  background-color: #ffffff;
-}
-.link {
-  text-decoration: none;
-}
-.menu-link {
-  font-family: var(--main-font);
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--navy-blue);
-}
-.menu-link:hover,
-.menu-link:focus {
-  color: var(--ocean);
-}
-.contact-phone-number,
-.contact-email,
-.email-phone-link {
-  font-family: var(--main-font);
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: var(--slate);
-}
-.contact-phone-number:hover,
-.contact-email:hover {
-  color: #404bbf;
 }
 .modal-btn {
   font-family: inherit;
@@ -81,6 +46,42 @@
   background-color: #404bbf;
   color: var(--white);
 }
+.list {
+  list-style: none;
+  text-decoration: none;
+  background-color: #ffffff;
+}
+.link {
+  text-decoration: none;
+}
+.menu-link {
+  font-family: var(--main-font);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #404bbf;
+}
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--ocean);
+}
+.contact-phone-number,
+.contact-email,
+.email-phone-link {
+  font-family: var(--main-font);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+.contact-phone-number:hover,
+.contact-email:hover {
+  color: #404bbf;
+}
+
 .hero-section-header {
   font-family: var(--main-font);
   font-weight: 700;
