@@ -14,7 +14,7 @@
   --white: #ffffff;
   --dairy: #fcfcfc;
 }
-.body {
+body {
   font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -87,8 +87,8 @@
 .menu-link:focus {
   color: var(--ocean);
 }
-.contact-phone-number,
-.contact-email,
+.contacts-link,
+.contacts-link,
 .email-phone-link {
   font-family: var(--main-font);
   font-style: normal;
@@ -98,8 +98,8 @@
   letter-spacing: 0.02em;
   color: var(--slate);
 }
-.contact-phone-number:hover,
-.contact-email:hover {
+.contacts-link:hover,
+.contacts-link:focus {
   color: #404bbf;
 }
 
