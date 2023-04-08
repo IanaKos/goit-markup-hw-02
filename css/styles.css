@@ -28,7 +28,6 @@ body {
 }
 .modal-btn {
   font-family: inherit;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -48,7 +47,6 @@ body {
 }
 .card-modal-btn {
   font-family: inherit;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -120,7 +118,6 @@ body {
 
 .logo {
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -138,7 +135,6 @@ body {
 }
 .secondary-header {
   font-family: var(--main-font);
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -152,7 +148,6 @@ body {
 }
 .team-title {
   font-family: var(--main-font);
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -161,7 +156,6 @@ body {
 }
 .team-position {
   font-family: var(--main-font);
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -171,7 +165,6 @@ body {
 .feauture-title,
 .card-name {
   font-family: var(--main-font);
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -181,7 +174,6 @@ body {
 .feauture-review,
 .card-review {
   font-family: var(--main-font);
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -193,7 +185,6 @@ body {
 }
 .footer-text {
   font-family: var(--main-font);
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
